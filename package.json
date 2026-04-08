@@ -9,15 +9,20 @@
     "build:backend": "cd backend && npm run build",
     "start": "cd backend && npm run start",
     "start:dev": "cd backend && npx tsx src/server.ts",
-    "start:all": "concurrently \"npm run start:dev\" \"npm run dev\""
+    "start:all": "concurrently \"npm run start:dev\" \"npm run dev\"",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build",
+    "tauri:build:linux": "tauri build --target x86_64-unknown-linux-gnu"
   },
   "dependencies": {
+    "@tauri-apps/api": "^2.10.1",
     "js-yaml": "^4.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "zustand": "^5.0.2"
   },
   "devDependencies": {
+    "@tauri-apps/cli": "^2.10.1",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^22.10.2",
     "@types/react": "^18.3.12",

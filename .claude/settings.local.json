@@ -42,7 +42,19 @@
       "Bash(git config:*)",
       "Bash(git commit:*)",
       "Bash(git remote:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(rustc --version)",
+      "Bash(sh -s -- -y)",
+      "Bash(sh -s -- -y --default-toolchain stable --profile minimal)",
+      "Bash(sudo apt-get:*)",
+      "Bash(mkdir -p ~/.cache/tauri/bundle)",
+      "Read(//home/betwowt/.cache/tauri/**)",
+      "Bash(wget -q --show-progress --timeout=30 https://github.com/tauri-apps/binary-releases/releases/download/apprun-old/AppRun-x86_64 -O AppRun-x86_64)",
+      "Bash(chmod +x AppRun-x86_64)",
+      "Bash(wget -q --show-progress --timeout=60 https://github.com/tauri-apps/binary-releases/releases/download/linuxdeploy/linuxdeploy-x86_64.AppImage -O linuxdeploy-x86_64.AppImage)",
+      "Bash(chmod +x linuxdeploy-x86_64.AppImage)",
+      "Bash(cp ~/.cache/tauri/bundle/AppRun-x86_64 ~/.cache/tauri/)",
+      "Bash(cp ~/.cache/tauri/bundle/linuxdeploy-x86_64.AppImage ~/.cache/tauri/)"
     ]
   }
 }

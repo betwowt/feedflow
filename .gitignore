@@ -35,6 +35,9 @@ dist-ssr
 backend/data/
 backend/config/feeds.yaml
 
+# Tauri build outputs
+src-tauri/target/
+
 # Temporary files
 *.tmp
 tmp/
