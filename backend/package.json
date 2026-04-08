@@ -1,0 +1,26 @@
+{
+  "name": "rss-reader-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "start": "node dist/server.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "https-proxy-agent": "^9.0.0",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^23.11.1",
+    "socks-proxy-agent": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.7.2",
+    "vite-plugin-node-polyfills": "^0.26.0"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(pkill -f \"ts-node\")",
+      "Bash(pkill -f \"backend\")",
+      "Bash(node --loader ts-node/esm src/server.ts)",
+      "Bash(curl -s http://localhost:3001/health)",
+      "Bash(curl -s \"http://localhost:3001/api/feed/fetch?url=https://www.reddit.com/.rss\")",
+      "Bash(curl -s \"http://localhost:3001/api/feed/fetch?url=https://news.ycombinator.com/rss\")",
+      "Bash(pkill -f \"tsx\")",
+      "Bash(pkill -f \"tsx src/server\")",
+      "Bash(curl -s http://localhost:5174)",
+      "Bash(curl -si https://www.phoronix.com/rss.php)",
+      "Bash(curl -s \"https://api.allorigins.win/get?url=https%3A%2F%2Fwww.phoronix.com%2Frss.php\")",
+      "Bash(curl -s \"https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.phoronix.com%2Frss.php\")",
+      "Bash(curl -s \"https://corsproxy.io/?https%3A%2F%2Fwww.phoronix.com%2Frss.php\")",
+      "Bash(curl -s \"https://api.codetabs.com/v1/proxy?quest=https%3A%2F%2Fwww.phoronix.com%2Frss.php\")",
+      "Bash(curl -sL \"https://api.codetabs.com/v1/proxy?quest=https%3A%2F%2Fwww.phoronix.com%2Frss.php\")",
+      "Bash(curl -s \"https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.phoronix.com%2Frss.php\")",
+      "Bash(npm list:*)",
+      "Bash(rm:*)",
+      "Bash(curl -s \"https://sspai.com/feed\")",
+      "Bash(curl -s \"http://localhost:3001/api/feed/fetch?url=https://sspai.com/feed\")",
+      "Bash(node:*)",
+      "Bash(pkill -f \"tsx src/server.ts\")",
+      "Bash(pkill -f \"vite\")",
+      "Read(//tmp/**)",
+      "Bash(curl -s http://localhost:5173/)",
+      "Bash(curl:*)",
+      "WebSearch",
+      "Bash(pkill -f \"node.*dist\")",
+      "Bash(pkill -9 -f \"node.*dist/server\")",
+      "Bash(pkill -f \"node.*server\")",
+      "Bash(git init:*)",
+      "Bash(git branch:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

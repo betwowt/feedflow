@@ -1,0 +1,15 @@
+fetch_interval: 300
+proxy:
+  enabled: false
+feeds:
+  - url: https://sspai.com/feed
+    title: 少数派
+    description: 少数派致力于更好地运用数字产品或科学方法
+    tags:
+      - tech
+      - productivity
+  - url: https://www.phoronix.com/rss.php
+    title: Phoronix
+    description: Linux Hardware News
+    proxy:
+      enabled: false
