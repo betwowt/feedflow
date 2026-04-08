@@ -36,7 +36,13 @@
       "Bash(pkill -f \"node.*server\")",
       "Bash(git init:*)",
       "Bash(git branch:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git rm:*)",
+      "Bash(git commit -m 'Initial commit: FeedFlow RSS Reader:*)",
+      "Bash(git config:*)",
+      "Bash(git commit:*)",
+      "Bash(git remote:*)",
+      "Bash(git push:*)"
     ]
   }
 }

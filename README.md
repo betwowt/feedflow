@@ -8,6 +8,10 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue)
 
+## 产品预览
+
+![FeedFlow 产品截图](img/product.png)
+
 [功能特性](#功能特性) • [快速开始](#快速开始) • [配置说明](#配置说明) • [API文档](#api文档)
 
 </div>
